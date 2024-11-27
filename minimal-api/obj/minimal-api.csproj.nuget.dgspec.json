@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\trilha-net-api\\minimal-api\\minimal-api.csproj": {}
+    "C:\\Projetos\\trilha-net-minimal-api\\minimal-api\\minimal-api.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\trilha-net-api\\minimal-api\\minimal-api.csproj": {
+    "C:\\Projetos\\trilha-net-minimal-api\\minimal-api\\minimal-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\trilha-net-api\\minimal-api\\minimal-api.csproj",
+        "projectUniqueName": "C:\\Projetos\\trilha-net-minimal-api\\minimal-api\\minimal-api.csproj",
         "projectName": "minimal-api",
-        "projectPath": "C:\\Projetos\\trilha-net-api\\minimal-api\\minimal-api.csproj",
+        "projectPath": "C:\\Projetos\\trilha-net-minimal-api\\minimal-api\\minimal-api.csproj",
         "packagesPath": "C:\\Users\\anagu\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\trilha-net-api\\minimal-api\\obj\\",
+        "outputPath": "C:\\Projetos\\trilha-net-minimal-api\\minimal-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anagu\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
