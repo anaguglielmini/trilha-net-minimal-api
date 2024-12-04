@@ -6,7 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Adicione o contexto do Entity Framework com a string de conexão
 builder.Services.AddDbContext<DbContexto>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")
+    )
+);
 
 var app = builder.Build();
 
