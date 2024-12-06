@@ -18,5 +18,4 @@ public class Veiculo
     
     [Required]
     public int Ano { get; set; } = default!;
-
 }
