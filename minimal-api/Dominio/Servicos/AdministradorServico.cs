@@ -14,7 +14,8 @@ public class AdministradorServico : IAdministradorServico
     }
     public Administrador? Login(LoginDTO loginDTO)
     {
-        var adm = _contexto.Administradores.Where(a => a.Email == loginDTO.Email && a.Senha == loginDTO.Senha).Count();
-        return qtd > 0;
+        var adm = _contexto.Administradores.Where(a => a.Email == loginDTO.Email && a.Senha == loginDTO.Senha).FirstOrDefault();
+        return adm;
+        
     }
 }
