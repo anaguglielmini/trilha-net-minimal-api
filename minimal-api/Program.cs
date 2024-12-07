@@ -58,7 +58,7 @@ ErrosDeValidacao validaDTO(VeiculoDTO veiculoDTO)
 
     int anoAtual = DateTime.Now.Year;
     if (veiculoDTO.Ano > anoAtual)
-        validacao.Mensagens.Add($"Veículo do futuro? Apenas aceitamos carros até o ano atual, {anoAtual}");
+        validacao.Mensagens.Add($"Veículo do futuro? Apenas aceitamos carros até o ano atual, {anoAtual}.");
 
     return validacao;
 
