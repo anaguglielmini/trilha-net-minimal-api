@@ -3,4 +3,4 @@ Projeto de criação de uma API que cria, lista, altera e deleta veículos para 
 
 Este projeto tem conexão com banco de dados no Sql Server com autenticação do windows, necessário deixar o banco de dados ligado equanto usa o swagger.
 
-Projeto realizado durante bootcamp de dotnet pela DIO.
+Projeto realizado durante bootcamp "Randstad - Backend com .NET" pela DIO.

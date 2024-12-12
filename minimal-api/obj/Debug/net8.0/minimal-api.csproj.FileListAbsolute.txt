@@ -192,3 +192,4 @@ C:\Projetos\trilha-net-minimal-api\minimal-api\bin\Debug\net8.0\Swashbuckle.AspN
 C:\Projetos\trilha-net-minimal-api\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\trilha-net-minimal-api\minimal-api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Projetos\trilha-net-minimal-api\minimal-api\obj\Debug\net8.0\minimal-api.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\trilha-net-minimal-api\minimal-api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
